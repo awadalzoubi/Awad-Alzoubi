@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Awad Zakaria Alzoubi.">
+  <title>Contact | 193079 | Awad Zakaria Alzoubi</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="portfolio.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Awad Zakaria Alzoubi home">AZ<span>.</span></a>
+    <nav aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a class="active" href="contact.html" aria-current="page">Contact me</a>
+    </nav>
+  </header>
+
+  <main class="contact-main">
+    <div class="wrap contact-grid">
+      <section class="contact-intro">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h1>Have a question<br>or an idea?</h1>
+        <p class="lead">Send me a message using the form. I’d be glad to hear from you.</p>
+        <div class="contact-detail"><span class="detail-label">STUDENT</span><span>Awad Zakaria Alzoubi · 193079</span></div>
+        <div class="contact-detail"><span class="detail-label">UNIVERSITY</span><span>Jordan University of Science and Technology</span></div>
+        <div class="contact-detail"><span class="detail-label">EMAIL</span><a href="mailto:azalzoubi25@cit.just.edu.jo">azalzoubi25@cit.just.edu.jo</a></div>
+      </section>
+
+      <section class="form-panel" aria-labelledby="form-title">
+        <h2 id="form-title">Contact form</h2>
+        <form id="contact-form" novalidate>
+          <div class="field"><label for="full-name">Full name <span aria-hidden="true">*</span></label><input id="full-name" name="fullName" type="text" autocomplete="name" required><small class="error" id="name-error"></small></div>
+          <div class="field"><label for="email">Email address <span aria-hidden="true">*</span></label><input id="email" name="email" type="email" autocomplete="email" required><small class="error" id="email-error"></small></div>
+          <div class="field"><label for="country">Country <span aria-hidden="true">*</span></label><input id="country" name="country" type="text" autocomplete="country-name" required><small class="error" id="country-error"></small></div>
+          <div class="field"><label for="comments">Comments <span aria-hidden="true">*</span></label><textarea id="comments" name="comments" rows="5" required></textarea><small class="error" id="comments-error"></small></div>
+          <button class="button submit-button" type="submit">Submit message <span aria-hidden="true">↗</span></button>
+          <p class="form-hint">All fields are required.</p>
+        </form>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><span>© 2026 Awad Zakaria Alzoubi</span><span>Jordan University of Science and Technology</span><a href="index.html">Home</a></div></footer>
+</body>
+</html>
